@@ -14,9 +14,7 @@ def square():
         t.right(y)
         t.forward(x)
         t.right(y)
-        t.forward(x)
-        t.turn(turn)
-        turn = turn + 5
+        t.right(turn)
         x = x + 5
 square()
 t.done()
